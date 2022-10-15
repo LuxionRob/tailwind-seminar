@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html class="dark">
   <head>
     <title>Tailwind seminar</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./assets/tailwind.output.css" />
   </head>
 
-  <body class="w-screen h-screen">
+  <body class="transition-500 linear relative h-screen w-screen bg-slate-50 transition dark:bg-slate-700">
     <div
-      class="relative items-center mx-auto my-auto border-2 shadow-lg cursor-pointer w-96 rounded-xl"
+      class="transition-500 linear relative mx-auto my-auto w-96 cursor-pointer items-center rounded-xl border-2 shadow-lg transition dark:border-slate-900 dark:bg-slate-500"
     >
-      <div class="flex items-center justify-center bg-blue-700 h-28 rounded-xl">
-        <h1 class="absolute mx-auto text-2xl text-center text-white right">Image goes here</h1>
+      <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+        <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
       </div>
 
-      <div class="p-2 border-b-2">
-        <h6>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae nulla, atque et
-          sunt ad voluptatum quidem impedit numquam quia? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Facilis beatae nulla, atque et sunt ad voluptatum quidem impedit numquam
-          quia?
+      <div class="mb-2 p-2">
+        <h6 class="transition-500 linear mb-2 transition dark:text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae nulla, atque et sunt ad voluptatum
+          quidem impedit numquam quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae nulla,
+          atque et sunt ad voluptatum quidem impedit numquam quia?
+        </h6>
         <span class="hashtag"> #Javascript </span>
       </div>
 
-      <div class="flex flex-wrap items-center bg-white border-t-2 rounded-b-xl">
-        <button class="p-1 px-2 m-2 text-white bg-blue-600 border shadow-sm rounded-2xl">
-          Go to Project
-        </button>
-        <button class="p-1 px-2 m-2 text-blue-600 border-2 border-blue-600 shadow-sm rounded-2xl">
-          Github
-        </button>
+      <div class="transition-500 linear mt-2 flex flex-wrap items-center bg-white transition dark:bg-slate-900">
+        <button class="m-2 rounded-2xl border bg-blue-600 p-1 px-2 text-white shadow-sm">Go to Project</button>
+        <button class="m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">Github</button>
       </div>
     </div>
+    <button
+      onclick="toggleDarkMode()"
+      class="transition-500 linear fixed top-2 right-2 flex h-[2vw] w-[2vw] items-center justify-center rounded-full border-2 border-slate-900 transition dark:bg-white"
+    >
+      <img src="./assets/bulb.svg" alt="dark mode icon" class="w-2/3" />
+    </button>
+    <script>
+      function toggleDarkMode() {
+        document.getElementsByTagName('html')[0].classList.toggle('dark')
+      }
+    </script>
   </body>
 </html>
