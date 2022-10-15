@@ -5,29 +5,26 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./assets/tailwind.output.css" />
   </head>
-
-  <body class="w-screen h-screen">
-    <div
-      class="relative items-center mx-auto my-auto border-2 shadow-lg cursor-pointer w-96 rounded-xl"
-    >
-      <div class="flex items-center justify-center bg-blue-700 h-28 rounded-xl">
-        <h1 class="absolute mx-auto text-2xl text-center text-white right">Image goes here</h1>
+  <body class="h-screen w-screen">
+    <div class="relative mx-auto my-auto w-96 cursor-pointer items-center rounded-xl border-2 shadow-lg">
+      <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+        <h1 class="right absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
       </div>
 
-      <div class="p-2 border-b-2">
+      <div class="border-b-2 p-2">
         <h6>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae nulla, atque et
-          sunt ad voluptatum quidem impedit numquam quia? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Facilis beatae nulla, atque et sunt ad voluptatum quidem impedit numquam
-          quia?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae nulla, atque et sunt ad voluptatum
+          quidem impedit numquam quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis beatae nulla,
+          atque et sunt ad voluptatum quidem impedit numquam quia?
+        </h6>
         <span class="hashtag"> #Javascript </span>
       </div>
 
-      <div class="flex flex-wrap items-center bg-white border-t-2 rounded-b-xl">
-        <button class="p-1 px-2 m-2 text-white bg-blue-600 border shadow-sm rounded-2xl">
-          Go to Project
-        </button>
-        <button class="p-1 px-2 m-2 text-blue-600 border-2 border-blue-600 shadow-sm rounded-2xl">
+      <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
+        <button class="m-2 rounded-2xl border bg-blue-600 p-1 px-2 text-white shadow-sm">Go to Project</button>
+        <button
+          class="linear linear m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm transition duration-500 hover:bg-blue-600 hover:text-white"
+        >
           Github
         </button>
       </div>
