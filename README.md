@@ -28,6 +28,10 @@
 
 - Basic TW
 - Basic typography
+  - Size
+  - Color
+  - Align and Spacing
+  - List
 - Box
 - Responsive
 - Layout
