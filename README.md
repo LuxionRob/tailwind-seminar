@@ -33,6 +33,14 @@
 - Layout
 - Animation
 - Configuration
+  - Preset
+  - Prefix
+  - Separator
+  - Screens
+  - Spacing
+  - Colors
+  - Core plugin
+  - Plugin
 
 ## Nhược điểm hiện tại của nó là gì? -> Minh hoạ
 
