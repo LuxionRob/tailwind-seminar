@@ -29,6 +29,10 @@
 - Basic TW
 - Basic typography
 - Box
+  - Padding & Margin
+  - Border
+  - Sizing
+    - Height & width
 - Responsive
 - Layout
 - Animation
