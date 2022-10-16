@@ -32,6 +32,8 @@
 - Responsive
 - Layout
 - Animation
+  - Animation: pulse
+  - Config
 - Configuration
 
 ## Nhược điểm hiện tại của nó là gì? -> Minh hoạ
