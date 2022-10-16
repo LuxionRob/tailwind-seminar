@@ -32,7 +32,8 @@
 - Responsive
 - Layout
 - Animation
-  - Animation: pulse
+  - Animation
+  - Transition
   - Config
 - Configuration
 
