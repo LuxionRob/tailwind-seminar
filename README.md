@@ -30,7 +30,6 @@
   - Preflight
   - Handle duplication with @apply and component
   - Pseudo-class
-- Design system
 - Basic typography
 - Box
 - Responsive
