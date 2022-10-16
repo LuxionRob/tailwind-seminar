@@ -27,7 +27,6 @@
 ### Demo
 
 - Basic TW
-- Design system
 - Basic typography
 - Box
 - Responsive
