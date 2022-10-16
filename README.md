@@ -31,6 +31,9 @@
 - Box
 - Responsive
 - Layout
+  - Container
+  - Display
+  - Flex & Grid
 - Animation
 - Configuration
 
