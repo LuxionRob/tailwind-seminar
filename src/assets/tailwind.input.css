@@ -4,6 +4,6 @@
 
 @layer components {
   .hashtag {
-    @apply transition-500 linear mx-1 my-1 rounded-2xl border border-blue-400 px-2 transition dark:border-blue-100 dark:text-white;
+    @apply linear mx-1 my-1 rounded-2xl border border-blue-400 px-2 transition duration-500 dark:border-blue-100 dark:text-white;
   }
 }
