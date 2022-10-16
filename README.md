@@ -36,9 +36,9 @@
 
 ## Nhược điểm hiện tại của nó là gì? -> Minh hoạ
 
-- Cần thời gian để học(giảm tốc độ code lúc ban đầu)
+- [Cần thời gian để học(giảm tốc độ code lúc ban đầu)](https://tailwindcss.com/docs/installation)
 - Code xấu
-- Thiếu component miễn phí được build sẵn
+- [Thiếu component miễn phí được build sẵn](https://tailwindui.com/components?ref=sidebar)
 - Kích cỡ file HTML lớn
 - Khó thiết lập một số thuộc tính CSS
   - Transition
