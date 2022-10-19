@@ -4,57 +4,320 @@
     <title>Tailwind seminar</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./assets/tailwind.output.css" />
+    <style>
+      .fade-in {
+        animation: fadeIn 0.6s;
+      }
+
+      .fade-out {
+        animation: fadeOut 0.3s;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeOut {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
 
-  <body class="h-screen w-screen">
-    <div class="relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg container">
-      <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
-        <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
-      </div>
-
-      <div class="border-b-2 p-2 w-96">
-        <div class="flex flex-nowrap w-96 overflow-x-auto">
-          <div class="mb-2 basis-full min-w-full">
-            <h6>Thành viên:</h6>
-            <ul class="ml-4 list-disc list-inside">
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Nguyễn Thanh Nhàn</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Bùi Công Tri</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Lê Khánh Châu</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Đinh Thị Ánh Nguyệt</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Thới Đức Luận</li>
-            </ul>
-          </div>
-          <div class="mb-2 basis-full min-w-full">
-            <h6>Thành viên:</h6>
-            <ul class="ml-4 list-disc list-inside">
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Nguyễn Thanh Nhàn</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Bùi Công Tri</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Lê Khánh Châu</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Đinh Thị Ánh Nguyệt</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Thới Đức Luận</li>
-            </ul>
-          </div>
-          <div class="mb-2 basis-full min-w-full">
-            <h6>Thành viên:</h6>
-            <ul class="ml-4 list-disc list-inside">
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Nguyễn Thanh Nhàn</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Bùi Công Tri</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Lê Khánh Châu</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Đinh Thị Ánh Nguyệt</li>
-              <li class="list-item hover:text-sky-400 hover:tracking-wide transition-all duration-200 ease-in">Thới Đức Luận</li>
-            </ul>
-          </div>
+  <body>
+    <div id="flex-layout" class="min-w-screen hidden h-screen">
+      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg">
+        <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+          <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
         </div>
-        <span class="relative hashtag"> 
-          <span class="hidden lg:inline">#Javascript</span>
-          <span class="inline lg:hidden">#JS</span>
-        </span>
-      </div>
+        <div class="w-96 border-b-2 p-2">
+          <div class="flex w-96 flex-nowrap overflow-x-auto">
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span class="hashtag relative">
+            <span class="hidden lg:inline">#Javascript</span>
+            <span class="inline lg:hidden">#JS</span>
+          </span>
+        </div>
 
-      <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
-        <button class="m-2 rounded-2xl border bg-blue-600 p-1 px-2 text-white shadow-sm">Go to Project</button>
-        <button class="m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">Github</button>
+        <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
+          <button class="m-2 rounded-2xl border bg-blue-600 p-1 px-2 text-white shadow-sm">Go to Project</button>
+          <button class="m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">Github</button>
+          <button class="change-btn m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">
+            Change to grid layout
+          </button>
+        </div>
       </div>
     </div>
+
+    <div id="grid-layout" class="mx-auto grid w-9/12 grid-cols-3 gap-1">
+      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg col-span-2">
+        <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+          <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
+        </div>
+        <div class="w-96 border-b-2 p-2">
+          <div class="flex w-96 flex-nowrap overflow-x-auto">
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
+          <button class="change-btn m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">
+            Change to flex layout
+          </button>
+        </div>
+      </div>
+      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg">
+        <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+          <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
+        </div>
+        <div class="w-96 border-b-2 p-2">
+          <div class="flex w-96 flex-nowrap overflow-x-auto">
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
+          <button class="change-btn m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">
+            Change to flex layout
+          </button>
+        </div>
+      </div>
+      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg">
+        <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+          <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
+        </div>
+        <div class="w-96 border-b-2 p-2">
+          <div class="flex w-96 flex-nowrap overflow-x-auto">
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
+          <button class="change-btn m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">
+            Change to flex layout
+          </button>
+        </div>
+      </div>
+      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg col-span-2">
+        <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+          <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
+        </div>
+        <div class="w-96 border-b-2 p-2">
+          <div class="flex w-96 flex-nowrap overflow-x-auto">
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
+          <button class="change-btn m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">
+            Change to flex layout
+          </button>
+        </div>
+      </div>
+      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg col-span-full">
+        <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
+          <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
+        </div>
+        <div class="w-96 border-b-2 p-2">
+          <div class="flex w-96 flex-nowrap overflow-x-auto">
+            <div class="mb-2 min-w-full basis-full">
+              <h6>Thành viên:</h6>
+              <ul class="ml-4 list-inside list-disc">
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Nguyễn Thanh Nhàn
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Bùi Công Tri
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Lê Khánh Châu
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Đinh Thị Ánh Nguyệt
+                </li>
+                <li class="list-item transition-all duration-200 ease-in hover:tracking-wide hover:text-sky-400">
+                  Thới Đức Luận
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
+          <button class="change-btn m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">
+            Change to flex layout
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      const btnChanges = document.querySelectorAll('.change-btn')
+      const flexLayout = document.getElementById('flex-layout')
+      const gridLayout = document.getElementById('grid-layout')
+      let layout = gridLayout.classList.contains('hidden')
+
+      const handleChangeToGrid = () => {
+        if (layout) {
+          flexLayout.classList.add('hidden')
+          gridLayout.classList.remove('hidden')
+          layout = false
+        } else {
+          gridLayout.classList.add('hidden')
+          flexLayout.classList.remove('hidden')
+          flexLayout.classList.add('block')
+          layout = true
+        }
+      }
+
+      btnChanges.forEach((btnChange) => {
+        btnChange.addEventListener('click', handleChangeToGrid)
+      })
+    </script>
   </body>
 </html>
