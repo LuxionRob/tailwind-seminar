@@ -33,6 +33,11 @@
 - Layout
 - Animation
 - Configuration
+- Plugin
+  - Offical Plugin review
+  - Add a dynamic class
+  - Add a component and compare with add utilities
+- Preset
 
 ## Nhược điểm hiện tại của nó là gì? -> Minh hoạ
 
