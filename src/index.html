@@ -39,6 +39,7 @@
         <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
           <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
         </div>
+
         <div class="w-96 border-b-2 p-2">
           <div class="flex w-96 flex-nowrap overflow-x-auto">
             <div class="mb-2 min-w-full basis-full">
@@ -109,17 +110,15 @@
         </div>
 
         <div class="flex flex-wrap items-center rounded-b-xl border-t-2 bg-white">
-          <button class="m-2 rounded-2xl border bg-blue-600 p-1 px-2 text-white shadow-sm">Go to Project</button>
-          <button class="m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">Github</button>
           <button class="change-btn m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm">
-            Change to grid layout
+            Change to flex layout
           </button>
         </div>
       </div>
     </div>
 
     <div id="grid-layout" class="mx-auto grid w-9/12 grid-cols-3 gap-1">
-      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg col-span-2">
+      <div class="container relative col-span-2 mx-auto cursor-pointer rounded-xl border-2 shadow-lg">
         <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
           <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
         </div>
@@ -224,7 +223,7 @@
           </button>
         </div>
       </div>
-      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg col-span-2">
+      <div class="container relative col-span-2 mx-auto cursor-pointer rounded-xl border-2 shadow-lg">
         <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
           <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
         </div>
@@ -259,7 +258,7 @@
           </button>
         </div>
       </div>
-      <div class="container relative mx-auto cursor-pointer rounded-xl border-2 shadow-lg col-span-full">
+      <div class="container relative col-span-full mx-auto cursor-pointer rounded-xl border-2 shadow-lg">
         <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
           <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
         </div>
@@ -319,5 +318,14 @@
         btnChange.addEventListener('click', handleChangeToGrid)
       })
     </script>
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Tailwind seminar</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./assets/tailwind.output.css" />
+      </head>
+    </html>
   </body>
 </html>
