@@ -33,6 +33,8 @@
 - Layout
 - Animation
 - Configuration
+- Plugin
+- Preset
 
 ## Nhược điểm hiện tại của nó là gì? -> Minh hoạ
 
