@@ -1,9 +1,7 @@
-## Tại sao nó xuất hiện (ra đời)? & Nó giải quyết vấn đề gì?
-
-## Nó khác gì so với những thằng tương tự?
-
 ## Đặc điểm nổi bật của nó là gì? -> Ví dụ
-
+- Project Introduction
+  - Extension
+  - Prettier
 - Layer
   - Base
   - Components
@@ -15,8 +13,6 @@
   - Screens
   - Colors
   - Spacing
-    <!-- Preset -->
-    <!-- Plugin -->
 - Pseudo-class
   - Hover
   - Focus

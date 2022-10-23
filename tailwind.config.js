@@ -14,6 +14,8 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
     plugin(function ({matchUtilities, theme}) {
       matchUtilities(
         {
@@ -24,13 +26,13 @@ module.exports = {
         {values: theme('wordSpacing')}
       )
     }),
-    plugin(function({addUtilities}) {
+    plugin(function ({addUtilities}) {
       addUtilities({
         '.hashtag': {
           marginInline: '0.125rem',
           marginBlock: '0.125rem',
-        }
-      })      
-    })
+        },
+      })
+    }),
   ],
 }
