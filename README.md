@@ -10,13 +10,12 @@
   - Utilities
 - Dark mode
 - Configuration
+  - Default Config
   - Content
   - Theme
   - Screens
   - Colors
   - Spacing
-    <!-- Preset -->
-    <!-- Plugin -->
 - Pseudo-class
   - Hover
   - Focus

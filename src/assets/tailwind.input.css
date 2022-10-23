@@ -4,6 +4,6 @@
 
 @layer components {
   .hashtag {
-    @apply mx-1 my-1 rounded-2xl border px-2 border-blue-300;
+    @apply mx-1 my-1 rounded-2xl border border-blue-300 px-2;
   }
 }
