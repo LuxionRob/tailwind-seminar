@@ -46,7 +46,6 @@ top10.netflix.com
 bobbyhadz.com
 swiperjs.com
 
-- Hệ thống lớn, cần scale liên tục
 - Hệ thống được build bởi những người có kinh nghiệm
 - Hệ thống ít animation
 
