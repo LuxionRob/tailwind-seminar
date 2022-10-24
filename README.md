@@ -1,5 +1,6 @@
 ## Cài đặt
-git clone https://github.com/LuxionRob/tailwind-seminar.gitcd tailwind-seminar  
+git clone https://github.com/LuxionRob/tailwind-seminar.git  
+cd tailwind-seminar  
 git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done  
 git fetch --all  
 git pull --all  
