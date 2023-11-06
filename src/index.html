@@ -6,37 +6,38 @@
     <link rel="stylesheet" href="./assets/tailwind.output.css" />
   </head>
 
-  <body class="duration-100 ease-linear relative h-screen w-screen bg-slate-50 transition dark:bg-slate-700">
+  <body class="relative h-screen w-screen bg-slate-50 transition duration-100 ease-linear dark:bg-slate-700">
     <div
-      class="duration-100 ease-linear relative mx-auto my-auto w-96 cursor-pointer items-center rounded-xl border-2 shadow-lg transition dark:border-slate-900 dark:bg-slate-500"
+      class="relative mx-auto my-auto w-96 cursor-pointer items-center rounded-xl border-2 shadow-lg transition duration-100 ease-linear dark:border-slate-900 dark:bg-slate-500"
     >
       <div class="flex h-28 items-center justify-center rounded-xl bg-blue-700">
         <h1 class="absolute mx-auto text-center text-2xl text-white">Image goes here</h1>
       </div>
 
       <div class="mb-2 p-2">
-          <div class="mb-2">
-            <h6 class="duration-100 ease-linear mb-2 transition dark:text-white">Thành viên:</h6>
-            <ul class="ml-4 list-disc dark:text-white transition duration-100 ease-linear">
-              <li>Nguyễn Thanh Nhàn</li>
-              <li>Bùi Công Tri</li>
-              <li>Lê Khánh Châu</li>
-              <li>Đinh Thị Ánh Nguyệt</li>
-              <li>Thới Đức Luận</li>
-            </ul>
-          </div>
-        </h6>
+        <div class="mb-2">
+          <h6 class="mb-2 transition duration-100 ease-linear dark:text-white">Thành viên:</h6>
+          <ul class="ml-4 list-disc transition duration-100 ease-linear dark:text-white">
+            <li>Nguyễn Thanh Nhàn</li>
+            <li>Bùi Công Tri</li>
+            <li>Đặng Duy Bình</li>
+          </ul>
+        </div>
         <span class="hashtag"> #Javascript </span>
       </div>
 
-      <div class="duration-100 ease-linear mt-2 flex flex-wrap items-center bg-white transition dark:bg-slate-900">
+      <div class="mt-2 flex flex-wrap items-center bg-white transition duration-100 ease-linear dark:bg-slate-900">
         <button class="m-2 rounded-2xl border bg-blue-600 p-1 px-2 text-white shadow-sm">Go to Project</button>
-        <button class="m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm dark:text-white transition duration-100 linear">Github</button>
+        <button
+          class="linear m-2 rounded-2xl border-2 border-blue-600 p-1 px-2 text-blue-600 shadow-sm transition duration-100 dark:text-white"
+        >
+          Github
+        </button>
       </div>
     </div>
     <button
       onclick="toggleDarkMode()"
-      class="duration-100 ease-linear fixed top-2 right-2 flex h-[2vw] w-[2vw] items-center justify-center rounded-full border-2 border-slate-900 transition dark:bg-white"
+      class="fixed top-2 right-2 flex h-[2vw] w-[2vw] items-center justify-center rounded-full border-2 border-slate-900 transition duration-100 ease-linear dark:bg-white"
     >
       <img src="./assets/bulb.svg" alt="dark mode icon" class="w-2/3" />
     </button>

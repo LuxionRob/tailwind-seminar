@@ -1,4 +1,5 @@
 ## Đặc điểm nổi bật của nó là gì? -> Ví dụ
+
 - Layer
   - Base
   - Components
@@ -18,6 +19,7 @@
   - First
 
 ### Demo
+
 - Basic TW
 - Basic typography
 - Box
@@ -27,6 +29,7 @@
 - Configuration
 
 ## Nhược điểm hiện tại của nó là gì? -> Minh hoạ
+
 - Cần thời gian để học(giảm tốc độ code lúc ban đầu)
 - Code xấu
 - Thiếu component miễn phí được build sẵn
@@ -37,6 +40,7 @@
 - Không phân tách style và content ra những mục riêng lẽ
 
 ## Một số hệ thống web đang sử dụng nó, để thấy nó phù hợp với hệ thống web nào?
+
 top10.netflix.com
 bobbyhadz.com
 swiperjs.com
@@ -46,5 +50,6 @@ swiperjs.com
 - Hệ thống ít animation
 
 ## Question
+
 - Multiple pseudo-class
 - How to change placeholder to ...?
