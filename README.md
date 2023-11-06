@@ -1,4 +1,5 @@
 ## Đặc điểm nổi bật của nó là gì? -> Ví dụ
+
 - Project introduction
   - Extension
   - Prettier
@@ -46,6 +47,7 @@
 - Không phân tách style và content ra những mục riêng lẽ
 
 ## Một số hệ thống web đang sử dụng nó, để thấy nó phù hợp với hệ thống web nào?
+
 top10.netflix.com
 bobbyhadz.com
 swiperjs.com
@@ -55,5 +57,6 @@ swiperjs.com
 - Hệ thống ít animation
 
 ## Question
+
 - Multiple pseudo-class
 - How to change placeholder to ...?

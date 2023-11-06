@@ -30,7 +30,7 @@ module.exports = {
         'powder-blue': '#a8dadc',
         'celadon-blue': '#457b9d',
         'prussian-blue': '#1d3557',
-        'tahiti': {
+        tahiti: {
           100: '#cffafe',
           200: '#a5f3fc',
           300: '#67e8f9',
@@ -47,5 +47,5 @@ module.exports = {
   corePlugins: ['flex', 'justifyContent', 'alignItems'],
   corePlugins: {
     aspectRatio: false,
-  }
+  },
 }
