@@ -1,7 +1,8 @@
 ## Đặc điểm nổi bật của nó là gì? -> Ví dụ
+
 - Project Introduction
- - Extension
- - Prettier
+- Extension
+- Prettier
 
 - Layer
   - Base
