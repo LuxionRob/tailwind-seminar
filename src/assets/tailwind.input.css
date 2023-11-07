@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @layer components {
-	.hashtag {
-		@apply mx-1 my-1 rounded-2xl border border-blue-300 px-2;
-	}
+  .hashtag {
+    @apply mx-1 my-1 rounded-2xl border border-blue-300 px-2;
+  }
 }
