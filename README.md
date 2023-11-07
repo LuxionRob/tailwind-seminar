@@ -1,3 +1,5 @@
+<!-- @format -->
+
 ## Tại sao nó xuất hiện (ra đời)? & Nó giải quyết vấn đề gì?
 
 ## Nó khác gì so với những thằng tương tự?
