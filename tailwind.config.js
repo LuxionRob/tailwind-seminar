@@ -2,7 +2,7 @@
 
 module.exports = {
   content: ['./src/index.html'],
-  presets: [],
+  presets: [require('./myPreset.js')],
   theme: {
     extend: {},
   },
